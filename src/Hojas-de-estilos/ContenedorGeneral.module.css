@@ -1,0 +1,12 @@
+.contenedorcabecera{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    background: #66b482;
+}
+.contenedorPrincipal {
+    display: flex;
+    min-height: 86vh;
+    padding: 0px;
+  }
+  

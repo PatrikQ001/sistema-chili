@@ -1,0 +1,54 @@
+.contenedorMenu{
+    min-height: 100%;
+    width: 20%;
+    background-color: #d9d9d9;
+}
+.nav{
+    width: 100%;
+    height: 50%;
+    margin-top: 0;
+    background: #b5b5b5;
+}
+.navlink{
+    color: #000;
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+}
+.navlinkiside{
+    padding-left: 20px;
+}
+.navlinkinside:hover{
+    background: #9e9e9e;
+    width: 100%;
+}
+.list{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  
+}
+.listitem{
+    list-style: none;
+    width: 100%;
+    /*overflow: hidden;*/
+}
+.listitemclick{
+    cursor: pointer;
+}
+.listbutton{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    width: 100%;/*70 */ 
+    margin: 0 auto;
+}
+.listshow{
+    width: 80%;
+    margin-left: auto;
+    border-left: 2px solid #303440;
+    list-style: none;
+    transition: height .4s;
+    /*height: 0;*/
+}
